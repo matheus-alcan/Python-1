@@ -1,6 +1,6 @@
 print("Teste")
 def obter_informacoes_usuario():
-    nome = input("Qual é o seu nome ")
+    nome = input("Qual é o seu nome? ")
     idade = int(input("Digite sua idade: "))
     return nome, idade
 nome, idade = obter_informacoes_usuario()
